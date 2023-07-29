@@ -9,6 +9,17 @@
 ## Current Research
 #### I'm researching, training and optimizing lightweight LLM's in the brazillian portuguese language for specific "Agent" applications.
 
+## Skills
+- Nvidia Jetson Specialist
+- LLM Ops
+- Large Language Model (LLM) Developer
+- AI/ML for embedded systems
+- 3D Design and modeling
+- Computer Vision (OpenCV)
+- Python Proficiency
+- Pytorch, Tensorflow, Docker
+- LangChain, GPT-Index Libraries for LLMS
+
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
 <br>
