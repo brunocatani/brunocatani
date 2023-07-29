@@ -18,7 +18,7 @@
 - Computer Vision (OpenCV)
 - Python Proficiency
 - Pytorch, Tensorflow, Docker
-- LangChain, GPT-Index Libraries for LLMS
+- LangChain, GPT-Index Libraries for LLM's
 
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
