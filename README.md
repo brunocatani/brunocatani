@@ -4,7 +4,7 @@
 ## About Me
 #### I'm a artificial intelligence developer that loves ambitious and out of the box projects, my experiences include from heavy lift drones for the brazillian carnaval, computer vision systems for attendance, drownsiness and collision avoidance, and more recently Large Language Models(LLM) for private entreprise uses.
 
-#### Currently i'm a freelance developer working on-demand projects and part of a Nvidia Inception startup, OCTTA Systems.
+#### Currently i'm a freelance developer working on-demand projects and part of a Nvidia Inception startup, NEXUS.AI.
 
 ## Current Research
 #### I'm researching, training and optimizing lightweight LLM's in the brazillian portuguese language for specific "Agent" applications.
