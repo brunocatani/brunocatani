@@ -4,7 +4,7 @@
 
 Building intelligent systems — from edge-deployed models on Nvidia Jetson to enterprise LLM pipelines. 7+ years shipping production software across AI, computer vision, and low-level systems programming.
 
-Currently working full-time in AI engineering. Previously freelance, building on-demand AI solutions and co-founding [NEXUS.AI](https://nexusai.cloud) (Nvidia Inception program).
+Currently working full-time in AI engineering. Previously freelance, building on-demand AI solutions.
 
 ---
 
