@@ -1,10 +1,16 @@
 ## Bruno Catani
 
-**Senior Software Developer & AI Engineer** · Pato Branco, PR — Brazil
+**Senior Software Developer & AI Engineer** · Brazil
 
-7+ years building production systems across AI, backend development, and low-level systems programming. Currently a Senior Software Developer at **SINNCTECH**, working on WhatsApp API integrations, Python backends, AI microservices, and local LLM inference with GraphRAG.
+7+ years building production systems across AI, backend development, and low-level systems programming. Currently a Senior Software Developer at **SINNCTECH**, working on: 
+- WhatsApp API integrations
+- Python backend (Django/FastAPI)
+- AI microservices
+- Local LLM inference with VLLM
+- LLM Agent development (Langchain, LlamaIndex)
+- GraphRag
 
-Previously founded and ran **AgenSys** (2.5 years as CEO/CTO) — building AI agents for Brazilian SMBs using the WhatsApp Business API, open-source vision models, and agentic workflows. Before that, led R&D at **Sirius Drones** and consulted on computer vision and LLM systems at **OCTTA Systems**.
+Previously founded and ran **AgenSys** (2.5 years as CEO/CTO) — building AI agents for Brazilian SMBs using the WhatsApp Business API, open-source vision models, and agentic workflows. Before that, led R&D at **Sirius Drones** and consulted on computer vision, LLM systems and UAV/Robotics at **OCTTA Systems**.
 
 ---
 
@@ -20,14 +26,11 @@ Previously founded and ran **AgenSys** (2.5 years as CEO/CTO) — building AI ag
 
 ### Featured: Fallout 4 VR Modding
 
-I reverse engineer and build native C++ plugins for Fallout 4 VR using F4SE, CommonLib, and Havok Physics — disassembling the game engine with Ghidra, mapping undocumented VR code paths, and building systems that don't exist in the original game.
+I reverse engineer and build native C++ plugins for Fallout 4 VR using F4SE, CommonLib, and Havok Physics, mapping undocumented VR code paths, and building systems that don't exist in the original game.
 
 | Project | Description |
 |---------|-------------|
 | [**ROCK**](https://github.com/brunocatani/ROCK) | Physics-based hand interaction — realistic object grabbing and manipulation using Havok rigid body dynamics |
-| [**hFRIK**](https://github.com/brunocatani/hFRIK) | Full-body inverse kinematics with Havok physics — VR body presence system |
-| [**RecoilVR**](https://github.com/brunocatani/RecoilVR) | Physics-driven weapon recoil — standalone F4SE plugin with hFRIK integration |
-| [**CommonLibF4VR**](https://github.com/brunocatani/CommonLibF4VR) | Contributing to the reverse-engineered SDK for Fallout 4 VR |
 
 ---
 
@@ -38,7 +41,7 @@ I reverse engineer and build native C++ plugins for Fallout 4 VR using F4SE, Com
 **LLM/NLP:** RAG · GraphRAG · Agent architectures · OCR · Fine-tuning  
 **APIs:** WhatsApp Business API · WhatsApp Flows · Payments integration  
 **Infrastructure:** AWS · Azure · GCP · Docker · Linux · Git  
-**Specialized:** Nvidia Jetson/CUDA · Havok Physics · Ghidra · F4SE/CommonLib · CMake
+**Miscellaneous:** Nvidia Jetson/CUDA · Havok Physics · Ghidra · F4SE/CommonLib
 
 ---
 
@@ -50,9 +53,9 @@ I reverse engineer and build native C++ plugins for Fallout 4 VR using F4SE, Com
 | 2023 — 2026 | CEO / CTO | AgenSys |
 | 2022 — 2023 | AI Developer & Consultant | OCTTA Systems |
 | 2021 — 2022 | Head of R&D | Sirius Drones |
-| 2018 — 2020 | Founder & Captain | White Phoenix UAVs |
 
-B.Tech in Information Technology · Started in Mechanical Engineering (UTFPR)
+B.Tech in Information Technology (UNIMATER)
+Bachelors in Mechanical Engineering (UTFPR)
 
 ---
 
