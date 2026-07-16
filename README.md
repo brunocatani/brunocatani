@@ -1,65 +1,36 @@
-## Bruno Catani
+# Bruno Catani
 
-**Senior Software Developer & AI Engineer** · Brazil
-
-7+ years building production systems across AI, backend development, and low-level systems programming. Currently a Senior Software Developer at **SINNCTECH**, working on: 
-- WhatsApp API integrations
-- Python backend (Django/FastAPI)
-- AI microservices
-- Local LLM inference with VLLM
-- LLM Agent development (Langchain, LlamaIndex)
-- GraphRag
-
-Previously founded and ran **AgenSys** (2.5 years as CEO/CTO) — building AI agents for Brazilian SMBs using the WhatsApp Business API, open-source vision models, and agentic workflows. Before that, led R&D at **Sirius Drones** and consulted on computer vision, LLM systems and UAV/Robotics at **OCTTA Systems**.
+Senior Software Developer by day. The rest of the time I reverse-engineer Fallout 4 VR and build the physics engine it should have shipped with.
 
 ---
 
-### What I work on
+## ROCK / PAPER / SCISSORS — a VR interaction stack, built from nothing
 
-- **Python Backend & AI Microservices** — High-throughput inference infrastructure with vLLM, API integrations at scale, and production AI pipelines.
-- **LLM Engineering** — Fine-tuning, RAG/GraphRAG, agent architectures, low-latency OCR, and Portuguese-language model specialization. Experience deploying open-source LLMs (Qwen, Pixtral) locally and on AWS/Azure.
-- **WhatsApp Business API** — Deep expertise in integration, scaling, Flows, payments, and building conversational AI on top of the platform.
-- **Computer Vision & Edge AI** — Real-time inference on Nvidia Jetson. Deployed systems for collision avoidance, drowsiness detection, and industrial inspection.
-- **VR Game Engine Development** — Low-level C++ reverse engineering, Havok physics integration, and shader pipeline work (side project — see below).
+Fallout 4 VR has no source code and no documentation for its VR-specific internals — including its own build of Havok physics. Nothing like this stack existed for it, so I mapped the binary with Ghidra and raw disassembly and built the physics on top myself: real per-finger collision, two-handed grabbing, active ragdoll.
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brunocatani/ROCK/main/public/ROCK.png" width="48%" alt="ROCK">
+  <img src="https://raw.githubusercontent.com/brunocatani/SCISSORS/main/public/SCISSORS.png" width="48%" alt="SCISSORS">
+</p>
 
-### Featured: Fallout 4 VR Modding
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=tPaIzmZ9P0o&t=113s"><strong>Watch ROCK in action &rarr;</strong></a>
+</p>
 
-I reverse engineer and build native C++ plugins for Fallout 4 VR using F4SE, CommonLib, and Havok Physics, mapping undocumented VR code paths, and building systems that don't exist in the original game.
-
-| Project | Description |
-|---------|-------------|
-| [**ROCK**](https://github.com/brunocatani/ROCK) | Physics-based hand interaction — realistic object grabbing and manipulation using Havok rigid body dynamics |
-
----
-
-### Tech
-
-**Languages:** Python · C++ · TypeScript · Bash  
-**AI/ML:** PyTorch · TensorFlow · vLLM · LangChain · Hugging Face · ONNX  
-**LLM/NLP:** RAG · GraphRAG · Agent architectures · OCR · Fine-tuning  
-**APIs:** WhatsApp Business API · WhatsApp Flows · Payments integration  
-**Infrastructure:** AWS · Azure · GCP · Docker · Linux · Git  
-**Miscellaneous:** Nvidia Jetson/CUDA · Havok Physics · Ghidra · F4SE/CommonLib
+| Project | What it does |
+|---|---|
+| **[ROCK](https://github.com/brunocatani/ROCK)** | Physics-based hand interaction. Full per-bone/per-finger body collision, real weapon collision, two-hand grabbing, and object handling driven by actual Havok rigid-body physics instead of scripted animation. The core of the stack — everything else builds on it. |
+| **[SCISSORS](https://github.com/brunocatani/SCISSORS)** | Active ragdoll physics: damage, impulse, and full-body reaction running on top of ROCK's collision layer. |
+| **PAPER Toolkit** *(to be released)* | Toolkit for probing and mapping FO4VR weapon animations, and fully integrating with ROCK's weapon interactions. |
+| **[Collision Visualizer F4VR](https://github.com/brunocatani/CollisionVisualizerF4VR)** | The debugger I had to build to build the rest of this: renders every live Havok collision body, layer, and constraint directly into the VR headset. |
+| **[hFRIK](https://github.com/brunocatani/hFRIK)** | Not mine — I'm an active contributor to the VR body/skeleton engine ROCK is built on. |
 
 ---
 
-### Background
+## Also, the day job
 
-| Period | Role | Organization |
-|--------|------|--------------|
-| 2026 — Present | Senior Software Developer | SINNCTECH |
-| 2023 — 2026 | CEO / CTO | AgenSys |
-| 2022 — 2023 | AI Developer & Consultant | OCTTA Systems |
-| 2021 — 2022 | Head of R&D | Sirius Drones |
+Senior Software Developer & AI Engineer, Brazil. Python/C++ backend, LLM agent systems, and WhatsApp-scale integrations.
 
-B.Tech in Information Technology (UNIMATER)
-Bachelors in Mechanical Engineering (UTFPR)
+**Stack:** Python · C++ · TypeScript · PyTorch/LangChain · AWS/Azure
 
----
-
-<sub>
-  <a href="https://www.linkedin.com/in/bruno-henrique-catani/">LinkedIn</a> · 
-  <a href="mailto:brunohcatani@gmail.com">Email</a>
-</sub>
+<sub>[LinkedIn](https://www.linkedin.com/in/bruno-henrique-catani/) · [Email](mailto:brunohcatani@gmail.com)</sub>
