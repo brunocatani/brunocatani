@@ -4,9 +4,9 @@ Senior Software Developer by day. The rest of the time I reverse-engineer Fallou
 
 ---
 
-## ROCK / PAPER / SCISSORS — a VR interaction stack, built from nothing
+## ROCK / PAPER / SCISSORS
 
-Fallout 4 VR has no source code and no documentation for its VR-specific internals — including its own build of Havok physics. Nothing like this stack existed for it, so I mapped the binary with Ghidra and raw disassembly and built the physics on top myself: real per-finger collision, two-handed grabbing, active ragdoll.
+Fallout 4 VR has very little documentation for its VR-specific internals — including its own build of Havok physics. Nothing like this stack existed for it, so I mapped the binary with Ghidra and raw disassembly and built the physics on top myself: real per-finger collision, two-handed grabbing, active ragdoll.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/brunocatani/ROCK/main/public/ROCK.png" width="48%" alt="ROCK">
